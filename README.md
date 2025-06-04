@@ -1,117 +1,150 @@
-# bank-loan-report-dashboard-Excel
-# 📊 Bank Loan Report Dashboard
 
-This project presents a comprehensive **Bank Loan Report** designed to provide insights into key loan-related metrics and performance trends. The report consists of three interactive dashboards: **Summary**, **Overview**, and **Details**. These dashboards help stakeholders monitor lending operations, identify trends, and support data-driven decision-making.
+📊 Bank Loan Report Dashboard (Excel-Based)
+Note: This project is inspired by the YouTube video:
+📺 Watch here
 
-> **📌 Source of the Problem Statement:**  
-> This dashboard project is inspired by the Bank Loan Report walkthrough available on YouTube by [Aviation Analyst](https://www.youtube.com/watch?v=yzaLl-BvHnc). All credit for the original idea and problem context goes to the creator.
+📁 Project Overview
+This Excel-based project presents a comprehensive Bank Loan Report Dashboard designed to analyze and visualize critical loan-related metrics. It allows stakeholders to monitor key performance indicators (KPIs), assess lending quality, and gain insights into trends and borrower profiles — all using Microsoft Excel’s advanced data analysis and visualization tools (PivotTables, charts, formulas, and conditional formatting).
 
----
+🎯 Objective
+The goal is to build an intuitive and interactive Excel dashboard to help a bank:
 
-## 🎯 Project Objective
+Track the overall health of its loan portfolio
 
-The goal of this project is to evaluate and visualize the performance of a bank’s lending activities. By analyzing historical loan data, we gain insights into key financial indicators, loan statuses, borrower demographics, and repayment trends.
+Compare Good vs. Bad Loans
 
----
+Monitor financial performance through dynamic KPIs
 
-## 📁 Dashboards Overview
+Visualize trends, patterns, and regional variations
 
-### 1. **Dashboard: SUMMARY**
+Support data-driven decisions in lending strategy
 
-This dashboard focuses on high-level KPIs and provides a snapshot of the loan portfolio’s health.
+📌 Dashboard Sections
+🧾 Dashboard 1: Summary
+Provides a top-level view of performance metrics:
 
-#### 🔑 Key Performance Indicators (KPIs):
-- **Total Loan Applications**: Overall and Month-to-Date (MTD), including Month-over-Month (MoM) changes.
-- **Total Funded Amount**: Total disbursed funds and MoM trends.
-- **Total Amount Received**: Borrower repayments tracked over time.
-- **Average Interest Rate**: Calculated across loans with MoM comparison.
-- **Average Debt-to-Income (DTI) Ratio**: Averages across borrowers.
+KPIs:
+Total Loan Applications
 
-#### ✅ Good Loan Metrics:
-- Good Loan Application % and Count
-- Funded Amount for Good Loans
-- Received Amount for Good Loans
+Total Funded Amount
 
-#### ❌ Bad Loan Metrics:
-- Bad Loan Application % and Count
-- Funded Amount for Bad Loans
-- Received Amount for Bad Loans
+Total Amount Received
 
-#### 📊 Loan Status Grid View:
-A tabular overview of all metrics segmented by loan status, including:
-- Total Applications
-- Funded and Received Amounts (MTD and overall)
-- Average Interest Rate and DTI
+Average Interest Rate
 
----
+Average Debt-to-Income (DTI) Ratio
 
-### 2. **Dashboard: OVERVIEW**
+Includes Month-to-Date (MTD) and Month-over-Month (MoM) comparisons for trend analysis.
 
-This dashboard uses data visualization to communicate patterns and breakdowns across different loan dimensions.
+✅ Good Loan vs. ❌ Bad Loan Analysis
+Classifies loans into:
 
-#### 📈 Monthly Trends (Line Chart)
-- Metrics: Applications, Funded Amount, Received Amount
-- X-Axis: Issue Date (monthly)
-- Y-Axis: Metric values
+Good Loans: Status is Fully Paid or Current
 
-#### 🗺️ Regional Analysis (Filled Map)
-- Distribution of applications, funds, and repayments across U.S. states
+Bad Loans: Status is Charged Off
 
-#### 🍩 Loan Term Analysis (Donut Chart)
-- Based on terms like 36 or 60 months
+Good Loan KPIs:
+Good Loan Application %
 
-#### 📊 Employee Length Analysis (Bar Chart)
-- Analyzes metrics by borrower employment length (e.g., 1 year, 10+ years)
+Total Good Loan Applications
 
-#### 💳 Loan Purpose Breakdown (Bar Chart)
-- Categorizes loans by purpose (e.g., debt consolidation, car purchase)
+Good Loan Funded Amount
 
-#### 🏠 Home Ownership (Tree Map)
-- Segments loans based on borrower home ownership (rent, own, mortgage)
+Good Loan Amount Received
 
----
+Bad Loan KPIs:
+Bad Loan Application %
 
-### 3. **Dashboard: DETAILS**
+Total Bad Loan Applications
 
-This dashboard provides an all-inclusive view of the dataset, combining:
-- Loan performance metrics
-- Borrower information
-- Application and repayment statuses
+Bad Loan Funded Amount
 
-It serves as a drill-down tool for deeper data exploration.
+Bad Loan Amount Received
 
----
+🧮 Loan Status Grid View
+A matrix-style report summarizing KPIs by Loan Status, including:
 
-## 🛠️ Tools & Technologies Used
-- **Microsoft Power BI**: Primary tool for data visualization
-- **MS Excel / CSV**: Data preparation and modeling
-- **DAX**: For KPI and metric calculations
+Total Loan Applications
 
----
+Funded Amounts
 
-## 📌 Credits
-This problem and dashboard design are based on the YouTube tutorial created by [Aviation Analyst](https://www.youtube.com/watch?v=yzaLl-BvHnc). The purpose of this project is educational and aimed at demonstrating real-world data analytics and visualization skills.
+Amounts Received
 
----
+MTD Metrics
 
-## 📂 How to Use
-1. Open the Power BI file or report.
-2. Explore each dashboard tab (Summary, Overview, Details).
-3. Use filters to interact with the data (e.g., time period, region).
-4. Hover over charts to view data insights.
+Average Interest Rate
 
----
+Average DTI
 
-## 📈 Skills Demonstrated
-- KPI Design and Calculation
-- Data Modeling and Cleaning
-- Interactive Dashboards with Filters
-- Visual Storytelling with Business Intelligence Tools
-- Real-World Financial Data Analysis
+This grid allows quick status-based performance assessments.
 
----
+📊 Dashboard 2: Visual Overview (Excel Charts)
+This section uses Excel charts to visualize patterns and distributions:
 
+Monthly Trends (Line Chart)
 
+Track Loan Applications, Funded Amount, and Amount Received over time using Issue Dates.
 
----
+State-wise Lending (Map Chart)
+
+Filled Map to visualize metrics by US state.
+
+Loan Term Breakdown (Donut Chart)
+
+Distribution based on loan term durations (e.g., 36 vs. 60 months).
+
+Employee Length Analysis (Bar Chart)
+
+Compare metrics across different borrower employment histories.
+
+Loan Purpose Breakdown (Bar Chart)
+
+Categorize loans based on purpose (e.g., debt consolidation, education, etc.).
+
+Home Ownership Tree Map
+
+Analyze loans by borrower homeownership status: own, rent, mortgage.
+
+📋 Dashboard 3: Detailed Loan View
+A dedicated worksheet for deep-dive exploration of raw and summarized loan data. This includes:
+
+Individual loan records
+
+Calculated columns for derived metrics
+
+Filters and slicers to interactively explore the dataset
+
+🛠 Tools & Techniques Used
+Microsoft Excel
+
+PivotTables & PivotCharts
+
+Conditional Formatting
+
+IF, SUMIFS, AVERAGEIFS, COUNTIFS functions
+
+Excel Maps & Donut Charts
+
+Data Cleaning with Excel formulas
+
+Dashboard Layout and Design
+
+📈 Skills Demonstrated
+Data Cleaning & Structuring
+
+KPI Design & Calculation
+
+Dashboard Building in Excel
+
+Chart-based Data Storytelling
+
+Financial & Business Analytics
+
+Classification of Good vs. Bad Loans
+
+Month-to-Date (MTD) and Month-over-Month (MoM) trend tracking
+
+📎 Reference
+This project was modeled after the educational example presented by @Chandoo in the YouTube video:
+➡️ Excel Dashboard for Bank Loans – Watch here
 
