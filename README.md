@@ -1,7 +1,7 @@
 
 📊 Bank Loan Report Dashboard (Excel-Based)
 Note: This project is inspired by the YouTube video:
-📺 Watch here
+📺 Watch  : https://www.youtube.com/watch?v=yzaLl-BvHnc
 
 📁 Project Overview
 This Excel-based project presents a comprehensive Bank Loan Report Dashboard designed to analyze and visualize critical loan-related metrics. It allows stakeholders to monitor key performance indicators (KPIs), assess lending quality, and gain insights into trends and borrower profiles — all using Microsoft Excel’s advanced data analysis and visualization tools (PivotTables, charts, formulas, and conditional formatting).
@@ -146,5 +146,5 @@ Month-to-Date (MTD) and Month-over-Month (MoM) trend tracking
 
 📎 Reference
 This project was modeled after the educational example presented by @Chandoo in the YouTube video:
-➡️ Excel Dashboard for Bank Loans – Watch here
+➡️ Excel Dashboard for Bank Loans – Watch here: https://www.youtube.com/watch?v=yzaLl-BvHnc
 
