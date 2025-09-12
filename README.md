@@ -4,7 +4,7 @@ Note: This project is inspired by the YouTube video:
 📺 Watch  : https://www.youtube.com/watch?v=yzaLl-BvHnc
 
 📁 Project Overview
-This Excel-based project presents a comprehensive Bank Loan Report Dashboard designed to analyze and visualize critical loan-related metrics for JIB. It allows stakeholders to monitor key performance indicators (KPIs), assess lending quality, and gain insights into trends and borrower profiles — all using Microsoft Excel’s advanced data analysis and visualization tools (PivotTables, charts, formulas, and conditional formatting).
+This Excel-based project presents a comprehensive Bank Loan Report Dashboard designed to analyze and visualize critical loan-related metrics for JIB. It allows stakeholders to monitor key performance indicators (KPIs), assess lending quality, and gain insights into trends and borrower profiles — all using Microsoft Excel’s advanced data analysis and visualization tools (PivotTables, charts, and formulas).
 
 🎯 Objective
 The goal is to build an intuitive and interactive Excel dashboard to help a JIB:
